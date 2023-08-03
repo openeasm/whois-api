@@ -1,9 +1,17 @@
 # A API for whois query
-## Install 
+## Install
+build from source
 ```bash
 git clone https://github.com/openeasm/whois_api
-go run main.go 8000
+go run app.go 8000
 ```
+or use docker
+```bash
+docker build -t my-golang-app .
+docker run -p 8000:8000 my-golang-app
+```
+
+```bash
 ## Usage
 ### 1. 查域名
 ```bash
