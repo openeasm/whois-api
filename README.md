@@ -7,8 +7,8 @@ go run app.go 8000
 ```
 or use docker
 ```bash
-docker build -t my-golang-app .
-docker run -p 8000:8000 my-golang-app
+docker build -t whois-api .
+docker run -p 8000:8000 whois-api
 ```
 
 ```bash
